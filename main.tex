@@ -60,38 +60,39 @@
         \linespread{1}
         \includegraphics[width=5cm]{images/Queens.png}\\[1cm]
         {\Large Alistair O'Brien}\\[1cm]
-        {\Large Departent of Computer Science}\\[1.5cm]
+        {\Large Department of Computer Science}\\[1.5cm]
         {\Large \today}
     \end{center}
 
     \newpage
 
     \begin{enumerate}
-        \item \textbf{A1} \begin{enumerate}
+	\item \textbf{A1} $x^{-10}$    
+        \item \textbf{A2} \begin{enumerate}
             \item We have $x ^2 - 1 = (x - 1)(x + 1)$.
             \item We have $a^2 - 4ab + 4b^2 = (a + 2b)(a - 2b)$.
             \item We have $x ^3 - 1 = (x - 1)(x^2 + x + 1)$.
         \end{enumerate}
-        \item \textbf{A2} \begin{enumerate}
+        \item \textbf{A3} \begin{enumerate}
             \item Given that $x^2 - 5x + 6 = (x-2)(x-3) = 0$ then it follows that the solutions are $x_{1,2} = 2, 3$.
             \item Given that $x^2 + 2x = x (x+2) = 0$ then it follows that the solutions are $x_{1,2} = 0, -2$.
-            \item We have the quadratic equation $x^2 - x - 1 = 0$. Given that we cannot find any roots by insection, let us applying the quadratic formula, which gives us the following solutions \[
+            \item We have the quadratic equation $x^2 - x - 1 = 0$. Given that we cannot find any roots by inspection, let us applying the quadratic formula, which gives us the following solutions \[
                 x_{1,2} = \frac{-(-1) \pm \sqrt{1 - 4 \times 1 \times (-1) } }{2} = \frac{1 \pm \sqrt{5}}{2}
             .\]  
-            \item We have the quartic equation $x^4 - 3x^2 + 2 = 0$. Using the subsitution $u = x^2$, we have the quadratic equation $u^2 - 3u + 2 = 0$. Factorising this yeilds \[
+            \item We have the quartic equation $x^4 - 3x^2 + 2 = 0$. Using the substitution $u = x^2$, we have the quadratic equation $u^2 - 3u + 2 = 0$. Factorising this yields \[
                 u^2 - 3u + 2 = (u - 2) (u - 1) = 0
             .\]
             Hence the roots of the above equation are $u_{1,2} = 1, 2$. Since $u = x^2$, then we have the following solutions to the original equation \[
                 x_{1,\ldots,4} = \pm 1, \pm \sqrt{2}
             .\]     
         \end{enumerate}
-        \item \textbf{A3}. Recall that the vertex from of univariate quadratic function is given by \[
+        \item \textbf{A4}. Recall that the vertex from of univariate quadratic function is given by \[
             f(x) = ax^2 + bx + c = a \left( x - \frac{b}{2a} \right)^2 + \left( c - \frac{b^2}{4a} \right)
         .\] where $a, b, c \in \mathbb{R}$. Also note that $\forall x \in \mathbb{R}, x^2 \geq 0$, so it follows that \[
             \left( x - \frac{b}{2a} \right)^2 \geq 0
         .\] for all $x \in \mathbb{R}$. So the minima (or maxima) of $f$ occurs when \[
             \left( x - \frac{b}{2a} \right)^2 = 0 \iff x = \frac{b}{2a}
-        .\] And so any univariate has the turing point \[
+        .\] And so any univariate has the turning point \[
             \left( \frac{b}{2a},  c - \frac{b^2}{4a}\right)
         .\] 
         
@@ -103,9 +104,9 @@
             \item Similarly \[
                 g(x) = x^4 + 2x^2 + 2 = (x^2 + 1)^2 + 1
             .\] Hence the minimum value of $g$ is $1$ when $x = \pm 1$.
-            \item Given the minimum of (a) occurs at $x = 1$ it follows that the shape of (a) in the domain $2 \leq x \leq 3$ is concave, thus the minimum value occurs at the boundary $x = 2$. Subsituting this in gives us $f(2) = (2 - 1)^2 + 5 = 6$.
+            \item Given the minimum of (a) occurs at $x = 1$ it follows that the shape of (a) in the domain $2 \leq x \leq 3$ is concave, thus the minimum value occurs at the boundary $x = 2$. Substituting this in gives us $f(2) = (2 - 1)^2 + 5 = 6$.
         \end{enumerate}
-        \item \textbf{A4} \begin{enumerate}
+        \item \textbf{A5} \begin{enumerate}
             \item We have \begin{align*}
                 x^2 - 3x &< 4 \\
                 \iff x^2 - 3x - 4 &< 0 \\
@@ -119,7 +120,7 @@
             \end{align*}
             Hence $y^3 < 2y^2 + 3y \iff x \in (- \infty, -1) \cup (0,3) $.
         \end{enumerate}
-        \item \textbf{A5} \begin{enumerate}
+        \item \textbf{A6} \begin{enumerate}
             \item We note that $(x+4)$ is a factor of  $f(x) = x^3 + 5x^2 - 2x -24$ since $x = -4$ is a root of $f$, so by the factor theorem $(x + 4)$ is a factor of $f$. So \[
                 f(x) = (x+4)g(x) 
             .\] where $g$ is some univariate polynomial of degree 2. So using polynomial division, we have \begin{align*}
@@ -136,7 +137,7 @@
             .\] 
             \item By inspection we note that $t = 1$ is a root of $f(t) = t^3 - 7t + 6$. So by the factor theorem we have \[
                 f(t) = (t - 1) g(t)
-            ,\] where $g(t)$ is some univariate polynomial of degree 2. Intuivitly we can see that $g$ has the following form \[
+            ,\] where $g(t)$ is some univariate polynomial of degree 2. Intuitively we can see that $g$ has the following form \[
                 g(t) = t^2 + at - 6
             .\]  Given that the $t^2$ coefficient of $f$ is zero, it follows that $a - 1 = 0$, hence $a = 1$. Thus, we have \[
                 f(t) = (t - 1) (t^2 + t - 6) = (t-1) (t+3) (t-2)
@@ -146,12 +147,12 @@
                 &= \frac{x}{x+1}.
             \end{align*}
         \end{enumerate}
-        \item \textbf{A6} \begin{enumerate}
+        \item \textbf{A7} \begin{enumerate}
             \item We have \begin{align*}
                 \frac{2}{(x+1)(x-1)} &\equiv \frac{A}{x+1} + \frac{B}{x-1} \\
                 &\equiv \frac{(A+B)x + (B - A)}{(x+1)(x-1)}.
             \end{align*}
-            Equating coefficients yeilds the following system for equations \begin{align*}
+            Equating coefficients yields the following system for equations \begin{align*}
                 A + B &= 0 \\
                 B - A &= 2,
             \end{align*}
@@ -160,7 +161,7 @@
                 A &= -1 \\
                 B &= 1.
             \end{align*}
-            Subsituting these into our original equivalence relation gives \[
+            Substituting these into our original equivalence relation gives \[
                 \frac{2}{(x+1)(x-1)} = \frac{1}{x-1}  - \frac{1}{x+1}
             .\] 
             \item Similarly, we have \begin{align*}
@@ -175,7 +176,7 @@
             \end{align*}
             From equation (1) we have \[
                 - C = A + B
-            .\] Subsituting this into equations (2) and (3) yeilds \begin{align*}
+		.\] Substituting this into equations (2) and (3) yields \begin{align*}
                 2A + 5B &= 1 \\
                 5B - 4A &= 13.
             \end{align*}
@@ -213,21 +214,38 @@
             .\] 
         \end{enumerate}
         \item \textbf{FC*} See paper. 
+        \item \textbf{FC5} \begin{enumerate}
+            \item $x = -1/2$.
+            \item Recall the definition of a logarithm. $x = k^{\log_k x}$. So if $\log_a b = c$, then it follows that for any base $\alpha$ we have \begin{align*}
+                a^c &=  b\\
+                \iff \log_\alpha a^c &= \log_\alpha b \\
+                \iff c \log_\alpha a &= \log_\alpha b \\
+                \iff c &= \frac{\log_\alpha b}{\log_\alpha a}.
+            \end{align*}
+            As required.
+            \item Changing to base $e$ gives us \begin{align*}
+                16 \log_x 3 &= 16 \frac{\ln 3}{\ln x} = \frac{\ln x}{\ln 3} = \log_3 x \\
+                \iff (\ln x)^2 &= (\ln 3^4)^2 \\
+                \iff \ln x_{1,2} &= \pm \ln 3^4 \\
+                \iff x_{1,2} &= e^{\pm \ln 3^4}
+            \end{align*}
+            So the solutions are $x_{1,2} = 81, 1/81$.
+        \end{enumerate}
         \item \textbf{G1} \begin{enumerate}
-            \item Note that given $AB = BC$ we can deduce that triangle $ABC$ is an isosociles triangle, hence if $\angle A = \pi/3$ then it follows that $\angle B = \pi/3$. Given that \[
+            \item Note that given $AB = BC$ we can deduce that triangle $ABC$ is an isosceles triangle, hence if $\angle A = \pi/3$ then it follows that $\angle B = \pi/3$. Given that \[
                 \angle A + \angle B + \angle C = \pi
-            .\] Then $\angle C = \pi/3$. Thus $ABC$ is infact a equilateral triangle, giving $AB = BC = CA = 1$.
-            \item Notice that $ABC$ is an isosociles triangle with $AB = BC = 2$ and a base $AC = 3$. Using a method of dissection we produce two congrugent right-angled triangles $ABM$ and $CBM$ where $M$ is the midpoint of $AC$. Let only consider $ABM$ (as the triangles are congrugent). Since $ABM$ is a right-angled triangle, we have \[
+            .\] Then $\angle C = \pi/3$. Thus $ABC$ is in-fact a equilateral triangle, giving $AB = BC = CA = 1$.
+            \item Notice that $ABC$ is an isosceles triangle with $AB = BC = 2$ and a base $AC = 3$. Using a method of dissection we produce two congruent right-angled triangles $ABM$ and $CBM$ where $M$ is the midpoint of $AC$. Let only consider $ABM$ (as the triangles are congruent). Since $ABM$ is a right-angled triangle, we have \[
                 \cos \angle A = \frac{3}{4}
-            .\]  So $\angle A = \arccos(3/4)$. Since $ABC$ is an isosociles triangle, then $\angle A = \angle B = \arccos(3/4)$. And given that \[
+            .\]  So $\angle A = \arccos(3/4)$. Since $ABC$ is an isosceles triangle, then $\angle A = \angle B = \arccos(3/4)$. And given that \[
                 \angle A + \angle B + \angle C = \pi
             .\] Then $\angle C = \pi - 2\arccos(3/4)$.
         \end{enumerate}
         \item \textbf{G2} \begin{enumerate}
-            \item The length $\ell$ of a sector is given by $\ell = r\theta$, where $r$ is the radius of the circle and $\theta$ is the sector angle (in raidans). So when $r = 3$ and $\theta = \pi/3$ it follows that $\ell = \pi$.
-            \item The area $A$ of a sector is given by $A = \frac{1}{2} r^2 \theta$. So subsituting $r= 3$ and $\theta = \pi/3$ gives us $A = 3/2 \pi$.
+            \item The length $\ell$ of a sector is given by $\ell = r\theta$, where $r$ is the radius of the circle and $\theta$ is the sector angle (in radians). So when $r = 3$ and $\theta = \pi/3$ it follows that $\ell = \pi$.
+            \item The area $A$ of a sector is given by $A = \frac{1}{2} r^2 \theta$. So substituting $r= 3$ and $\theta = \pi/3$ gives us $A = 3/2 \pi$.
         \end{enumerate}
-        \item \textbf{G3}. We have the lines (in cartesian form) \begin{align*}
+        \item \textbf{G3}. We have the lines (in Cartesian form) \begin{align*}
             x = y = z \\
             x = y = 2z + 1.
         \end{align*}
@@ -248,22 +266,21 @@
             \lambda = -1/2 + 1/2 \mu,
         \end{align*}
         which has the solution $\lambda = \mu = -1$, hence the lines intersect when $\lambda = \mu = -1$.
-        \item \textbf{SS1}. Recall that the general term of an arithmetic progrsssion with an initial term $u_1$ and a constant term difference $d$ is given by $u_n = u_1 + (n-1)d$. And so given $\alpha$ is the 3rd term and $\beta$ is the 9th term, we can then form the following system of equations \begin{align*}
+        \item \textbf{SS1}. Recall that the general term of an arithmetic progression with an initial term $u_1$ and a constant term difference $d$ is given by $u_n = u_1 + (n-1)d$. And so given $\alpha$ is the 3rd term and $\beta$ is the 9th term, we can then form the following system of equations \begin{align*}
             \alpha = u_1 + 2d \\
             \beta = u_1 + 8d.
         \end{align*}
-        Rearranging for $d$ yeilds \[
+        Rearranging for $d$ yields \[
             d = \frac{\beta - \alpha}{6}
-        .\] Subsituting this into equation (1) produces \[
+        .\] Substituting this into equation (1) produces \[
             u_1 = \frac{4 \alpha - \beta}{3}
         .\] Also recall that the sum of the first $n$ terms of the arithmetic progression $u_1, u_2, \ldots, u_n$ is \[
             S_n = \sum_{r=1}^{n} u_r = \frac{1}{2} n (2u_1 + (n-1)d)  
         .\] So for the first thirty terms we have \begin{align*}
             S_{30} &= \frac{1}{2} (30) \left( 2 \frac{4 \alpha - \beta}{3} + 29 \frac{\beta - \alpha}{6} \right) \\
             &= \frac{5}{2} \left( 25 \beta -13 \alpha \right).
-        \end{align*} 
-        \item \textbf{SS2} $x^{-10}$.
-        \item \textbf{SS3} \begin{enumerate}
+        \end{align*}
+	\item \textbf{SS2} \begin{enumerate} 
             \item Applying the binomial theorem gives us \begin{align*}
                 (1 + x)^3 &= \sum_{r = 0}^{3} {3 \choose r} (1)^{3 - r} (x)^{r} \\
                 &= 1 + 3x + 3x^2 + x^3.
@@ -276,29 +293,12 @@
                 \left( 2 + \frac{3}{x} \right) ^5 &= \left( \frac{3 + 2x}{x} \right)^5 \\
                 &= \frac{1}{x^5} (3 + 2x)^5 
             \end{align*}
-            Applying the binomial theorem yeilds \begin{align*}
+            Applying the binomial theorem yields \begin{align*}
                 \frac{1}{x^5} (3 + 2x)^5 &= \frac{1}{x^5} \sum_{r = 0}^{5} {5 \choose r} (3)^{5 - r} (2x)^{r} \\
                 &= \frac{1}{x^5} \left( 243 + 810x + 1080 x^2 + 720 x^3 + 240 x^4 + 32 x^5 \right)
             \end{align*}
         \end{enumerate}
-        \item \textbf{SS4} \begin{enumerate}
-            \item $x = -1/2$.
-            \item Recall the definition of a logarithm. $x = k^{\log_k x}$. So if $\log_a b = c$, then it follows that for any base $\alpha$ we have \begin{align*}
-                a^c &=  b\\
-                \iff \log_\alpha a^c &= \log_\alpha b \\
-                \iff c \log_\alpha a &= \log_\alpha b \\
-                \iff c &= \frac{\log_\alpha b}{\log_\alpha a}.
-            \end{align*}
-            As required.
-            \item Changing to base $e$ gives us \begin{align*}
-                16 \log_x 3 &= 16 \frac{\ln 3}{\ln x} = \frac{\ln x}{\ln 3} = \log_3 x \\
-                \iff (\ln x)^2 &= (\ln 3^4)^2 \\
-                \iff \ln x_{1,2} &= \pm \ln 3^4 \\
-                \iff x_{1,2} &= e^{\pm \ln 3^4}
-            \end{align*}
-            So the solutions are $x_{1,2} = 81, 1/81$.
-        \end{enumerate}
-        \item \textbf{SS5} \begin{enumerate}
+        \item \textbf{SS3} \begin{enumerate}
             \item Recall that the sum of the first $n$ terms of a arithmetic progression with general term $u_n = a + (n-1)d$ is \[
                 S_n = \sum_{r=1}^{n} u_r = \frac{1}{2} n (2a + (n-1) d)
             .\] 
@@ -326,24 +326,24 @@
             .\] We have \begin{align*}
                 \sum_{n=0}^{10} 2^n = \sum_{n=1}^{11} (1) 2^{n - 1} = \frac{1-2^{11}}{1-2} = 2047.
             \end{align*}
-            \item Simiarly, we have \begin{align*}
+            \item Similarly, we have \begin{align*}
                 \sum_{n=9}^{N} ar^{2n} &=  \sum_{n=1}^{N+1} ar^{2(n-1)} \\
                 &= a \sum_{n=1}^{N+1} (r^2)^{n-1} \\
                 &= a \frac{1-r^{2N+2}}{1-r^2}
             \end{align*}
         \end{enumerate}
-        \item \textbf{SS6} Given that $u_{n + 1} = k u_n$, then \[
+        \item \textbf{SS4} Given that $u_{n + 1} = k u_n$, then \[
             u_n = k ( k ( k ( \cdots k u_1))) = \underbrace{k \times k \times \cdots \times k}_{n-times} \times u_1 = k^n
         .\]  So we have the following cases as $n \to \infty$: \begin{enumerate}
             \item $k > 1$. $\lim_{n \to \infty} u_n \to \infty$
             \item $k = 1$. $\lim_{n \to \infty} u_n = 1$.
             \item $0 < k < 1$. $\lim_{n \to \infty} u_n \to 0$
             \item $k = 0$. $u_n$ is zero for all $n \neq 0$.
-            \item $-1 < k < 0$. $\lim_{n \to \infty} u_n \to 0$, but osscilates about the line $x = 0$.
-            \item $k = -1$. $\lim_{n \to \infty} u_n$ osscilates from 1 to $-1$.
-            \item $k < -1$. $\lim_{n \to \infty} |u_n| \to \infty$, but osscilates about the line $x = 0$.
+            \item $-1 < k < 0$. $\lim_{n \to \infty} u_n \to 0$, but oscillates about the line $x = 0$.
+            \item $k = -1$. $\lim_{n \to \infty} u_n$ oscillates from 1 to $-1$.
+            \item $k < -1$. $\lim_{n \to \infty} |u_n| \to \infty$, but oscillates about the line $x = 0$.
         \end{enumerate}
-        \item \textbf{SS7} Recall that the Maclaurin series for $(1+x)^n$ is \[
+        \item \textbf{SS5} Recall that the Maclaurin series for $(1+x)^n$ is \[
             (1+x)^n = \sum_{r = 0}^ \infty \frac{n(n-1) \cdots (n-r+1)}{r!} x^r
         .\] Which is valid for $|x| < 1$. Using this, we have: \begin{enumerate}
             \item \[
@@ -359,7 +359,7 @@
             \end{align*}
             This expansion is valid if and only if $|2x| < 1$ and $\left| \frac{x}{2} \right| < 1$, so the expansion is valid if and only if $|x| < \frac{1}{2}$.
         \end{enumerate}
-        \item \textbf{SS8} Using the approximations \begin{align*}
+        \item \textbf{SS6} Using the approximations \begin{align*}
             \sin \theta &\approx \theta - \frac{1}{6}\theta^3 \\
             \cos \theta &\approx 1 - \frac{1}{2}\theta^2,
         \end{align*}
@@ -371,7 +371,7 @@
             \frac{1}{1-x} = \sum_{k=0}^{\infty} x^k 
         .\] Hence \[
             \frac{1}{1-2\theta^2} = 1 + 2\theta^2 + 4 \theta^4 + \cdots
-        .\] for all $\theta \in \mathbb{R}$. And so subsituting this in yeilds \begin{align*}
+        .\] for all $\theta \in \mathbb{R}$. And so substituting this in yields \begin{align*}
             \sin \left( \frac{\theta}{2} \right) \cos \theta + \sec 2\theta &\approx \frac{\theta}{2} - \frac{13}{48} \theta^3 + 1 + 2\theta^2 \\
             &= 1 + \frac{\theta}{2} + 2\theta^2 - \frac{13}{48}\theta^3
         \end{align*}
@@ -379,7 +379,7 @@
             2\sin^2 \theta &= 1 \\
             \iff \sin \theta &= \pm \frac{1}{\sqrt{2}}
         \end{align*}
-        Using the CAST menomic, we get the following general solution \[
+        Using the CAST mnomic, we get the following general solution \[
             \theta \in \left\{ 2n\pi \pm \frac{\pi}{4} : n \in \mathbb{Z} \right \} \cup \left\{(2n+1)\pi \pm \frac{\pi}{4} : n \in \mathbb{Z}\right\} 
         .\] Given we're only interested in solutions in the domain $[0, 2\pi]$, we then have \[
             \theta_{1, \ldots, 4} = \frac{\pi}{4}, \frac{3\pi}{4}, \frac{5\pi}{4}, \frac{7\pi}{4}
@@ -415,7 +415,7 @@
         \item \textbf{T4} If $t = \tan \frac{\theta}{2}$, then we have a right-angled triangle with opposite $t$, adjacent $1$ and hypotenuse $\sqrt{1+t^2}$. So it follows that \begin{align*}
             \sin \frac{\theta}{2} &= \frac{t}{\sqrt{1 + t^2}} \\
             \cos \frac{\theta}{2} &= \frac{1}{\sqrt{1 + t^2}}.
-        \end{align*} Applying the double angle formulae yeilds \begin{align*}
+        \end{align*} Applying the double angle formulae yields \begin{align*}
             \cos \theta &= \frac{1}{1+t^2} - \frac{t^2}{1+t^2} = \frac{1-t^2}{1+t^2}\\
             \sin \theta &= 2 \frac{t}{\sqrt{1 + t^2}} \frac{1}{\sqrt{1+t^2}} = \frac{2t}{1+t^2}.
         \end{align*} And from definition of $\tan$ we get \[
@@ -433,7 +433,7 @@
             \cos(\phi - \psi) - \cos (\phi + \psi) &= \left( \cos \phi \cos \psi + \sin \phi \sin \psi \right) - \left( \cos \phi \cos \psi - \sin \phi \sin \psi \right) \\
             &= 2 \sin \phi \sin \psi.
         \end{align*}
-        Subsituting $A, B$ and $C$ in produces \[
+        Substituting $A, B$ and $C$ in produces \[
             \cos \left( \frac{B - C}{2} \right) - \cos \left( \frac{B + C}{2} \right) = 2 \sin \frac{B}{2} \sin \frac{C}{2}
         .\] Now since $A,B, C$ are angles of a triangle, it follows that \[
             A + B + C = \pi
@@ -481,26 +481,24 @@
                 \item The dot product between $\vec{A}$ and $\vec{B}$ is $\vec{A} \cdot \vec{B} = -29$. So \[
                     \theta = \arccos \left( \frac{-29}{293} \right)
                 .\] 
-                \item The dot product between $\vec{B}$ and $\vec{C}$ is $\vec{B} \cdot \vec{C} = 2$. So \[
+                \item The dot product between $\vec{B}$ and $\vec{C}$ is $\vec{B} \cdot \vec{C} = 1$. So \[
                     \theta = \arccos \left( \frac{2}{\sqrt{293} \sqrt{290} } \right)
                 .\] 
             \end{enumerate}
         \end{enumerate}
-        \item \textbf{V2} \begin{enumerate}
-            \item The vectors $\vec{A}, \vec{B}, \vec{C}$ lie on the line on the line $\vec{r} = \vec{a} + \lambda \vec{b}$ if and only if $\overrightarrow{AB}$ is parallel to $\overrightarrow{BC}$, that is to say $\overrightarrow{BC} = \lambda \overrightarrow{AB}$, where $\lambda \in \mathbb{R}$. Note that \[
-                \overrightarrow{AB} = \vec{B} - \vec{A} = \left\langle 1, 1, -1 \right\rangle 
-            .\] and \[
-                \overrightarrow{BC} = \vec{C} - \vec{B} = -2\left\langle 1,1, -1 \right\rangle = -2 \overrightarrow{AB}
-            .\] 
-            Hence $\overrightarrow{AB}$ and $\overrightarrow{BC}$ are parallel. Thus the equation of the line they all lie on must have the directional vector $\vec{b} = \left\langle 1,1,-1 \right\rangle$. So the equation of our line is \[
-                \vec{r} = \left\langle 1, 0, 1 \right\rangle + \lambda \left\langle 1,1,-1 \right\rangle
-            .\] 
-        \end{enumerate}
+	\item \textbf{V2} 
+		\begin{enumerate}
+			\item Let us consider the vector $\overrightarrow{AB} = \vec{B} - \vec{A}$. So \[
+				\overrightarrow{AB} = \left\langle -12, 20, -10 \right\rangle
+			.\] Given that the distance $d$ between the points is equal to the magnitude of the vector $\overrightarrow{AB}$, then if follows that the distance $d$ is \[
+				d = \sqrt{12^2 + 20^2 + 10^2} = 2 \sqrt{161}
+			.\]
+		\end{enumerate}
         
         \item \textbf{D1} \begin{enumerate}
             \item Computing the first and second derivatives of $y$ gives us \begin{align*}
                 \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} &= 2x \\
-                \frac{\mathop{\mathrm{d}^{2}y}}{\mathop{\mathrm{d}x^{2}}} &= 2/
+                \frac{\mathop{\mathrm{d}^{2}y}}{\mathop{\mathrm{d}x^{2}}} &= 2
             \end{align*} Hence we have a minima at $x = 0$ with no points of inflection.
             \item Computing the first and second derivatives of $y$ gives us \begin{align*}
                 \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} &= 3(x^2 - 1) = 3(x+1)(x-1) \\
@@ -547,7 +545,7 @@
                 \iff \cos y \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} &= 1 \\
                 \iff \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} &= \frac{1}{\cos y}
             \end{align*}
-            Given $\rng(\arcsin)  = [-\pi/2, \pi/2]$ so it follows that $\cos y$ is postive for all $y \in [-\pi/2, \pi/2]$. Using the Pythagorean identity, we have \[
+            Given $\rng(\arcsin)  = [-\pi/2, \pi/2]$ so it follows that $\cos y$ is positive for all $y \in [-\pi/2, \pi/2]$. Using the Pythagorean identity, we have \[
                 \cos y = \sqrt{1 - x^2} 
             .\] Hence \[
                 \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} = \frac{1}{1-x^2}
@@ -562,7 +560,7 @@
         \item \textbf{D5} We have \begin{align*}
             \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}t}} &= \frac{(t-2) - (t+1)}{(t-2)^2} = -\frac{3}{(t-2)^2}\\
             \frac{\mathop{\mathrm{d}x}}{\mathop{\mathrm{d}t}} &= \frac{2(t-3) - (2t+1)}{(t-3)^2} = - \frac{7}{(t-3)^2}
-        \end{align*} Applying the chain rule yeilds \[
+        \end{align*} Applying the chain rule yields \[
             \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} = \frac{3}{(t-2)^2} \frac{(t-3)^2}{7}
         .\] Hence \[
             \frac{\mathop{\mathrm{d}y}}{\mathop{\mathrm{d}x}} \Big|_{t = 1} = \frac{12}{7}
@@ -598,7 +596,7 @@
                 A + B &= 0 \\
                 B - A &= 2
             \end{align*}
-            So by inspection we have the solution $A, B = -1, 1$. Subsituting this back into our integrand we get \begin{align*}
+            So by inspection we have the solution $A, B = -1, 1$. Substituting this back into our integrand we get \begin{align*}
                 I &= \int_{}^{} \frac{1}{u-1} \mathop{\mathrm{d}u} - \int_{}^{} \frac{1}{u + 1} \mathop{\mathrm{d}u} \\
                 &= \ln \left| u - 1 \right| - \ln \left| u + 1 \right| \\
                 &= \ln \left| \sqrt{1-x} -1 \right| - \ln \left| \sqrt{1-x} +1 \right| + \kappa \\
@@ -610,7 +608,7 @@
                 u = \ln x \text{ and } \frac{\mathop{\mathrm{d}v}}{\mathop{\mathrm{d}x}} = 1
             .\] Giving us \[
                 \frac{\mathop{\mathrm{d}u}}{\mathop{\mathrm{d}x}} = \frac{1}{x} \text{ and } v = x
-            .\] Applying the rule we state above yeilds \[
+            .\] Applying the rule we state above yields \[
                 \int_{}^{} \ln x \mathop{\mathrm{d}x} = x \ln x - \int_{}^{} \frac{x}{x} \mathop{\mathrm{d}x} = x \ln x - x + \kappa  
             .\] 
         \end{enumerate}
@@ -639,11 +637,11 @@
             .\] 
             \item Recall that the triple angle formula for $\sin 3 \theta$ is \[
                 \sin 3\theta = 3 \sin \theta - 4 \sin^3 \theta
-            .\] Subsituting this into the integrand yeilds \begin{align*}
+            .\] Substituting this into the integrand yields \begin{align*}
                 I = \int_{0}^{\pi/2} \sin 3\theta \cos \theta \mathop{\mathrm{d}\theta} &= \int_{0}^{\pi/2} (3 \sin \theta - 4 \sin^3 \theta) \cos \theta \mathop{\mathrm{d}\theta}   \\
                 &= \int_{0}^{\pi/2} 3\sin \theta \cos \theta \mathop{\mathrm{d}\theta} - \int_{0}^{\pi/2} 4\sin^3 \theta \cos \theta \mathop{\mathrm{d}\theta}   
             \end{align*}
-            Using the subsitution $u = \sin \theta$ in both integrals gives us \newline $\mathop{\mathrm{d}u} = \cos \theta \mathop{\mathrm{d}\theta}$ and \begin{align*}
+            Using the substitution $u = \sin \theta$ in both integrals gives us \newline $\mathop{\mathrm{d}u} = \cos \theta \mathop{\mathrm{d}\theta}$ and \begin{align*}
                 I &= \int_{0}^{1} 3u \mathop{\mathrm{d}u} - \int_{0}^{1} 4u^3 \mathop{\mathrm{d}u} \\
                 &= \left[ \frac{3}{2} u^2 \right]_0^1 - \left[ u^4 \right]_0^1 \\
                 &= \frac{3}{2} - 1 = \frac{1}{2}      
@@ -653,7 +651,7 @@
                 &= \frac{1}{3} \left[ \ln \left| u \right| \right]_2^6 \\
                 &= \frac{1}{3} \ln 3.  
             \end{align*} 
-            \item Using the Weierstrass subsitution $t = \tan \frac{\theta}{2}$ (and our answers from \textbf{T4}) which are \begin{align*}
+            \item Using the Weierstrass substitution $t = \tan \frac{\theta}{2}$ (and our answers from \textbf{T4}) which are \begin{align*}
                 \cos \theta &= \frac{1 - t^2}{1 + t^2} \\
                 \sin \theta &= \frac{2t}{1+ t^2}
             \end{align*} we then have \begin{align*}
@@ -675,7 +673,7 @@
                 A - B &= 0 \\
                 2 (A + B) &= 1
             \end{align*}
-            So by inspection we have the solution $A = \frac{1}{4}$ and $B = - \frac{1}{4}$. Subsituting this back into our integrand yeilds \begin{align*}
+            So by inspection we have the solution $A = \frac{1}{4}$ and $B = - \frac{1}{4}$. Substituting this back into our integrand yields \begin{align*}
                 I &= \frac{1}{4} \left\{ \int_{0}^{1} \frac{1}{2 - t} \mathop{\mathrm{d}t} - \int_{0}^{1} \frac{1}{2 + t} \mathop{\mathrm{d}t} \right\}  \\
                 &= \frac{1}{4} \left\{ \left[  - \ln | 2 - t | \right]_0^1 - \left[ \ln \left| 2 + t \right| \right]_0^1 \right\} \\
                 &= \frac{1}{4} \left\{ \left( - \ln 1 + \ln 2 \right) - \left( \ln 3 - \ln 2 \right) \right\} \\
@@ -699,7 +697,7 @@
             A + B &= 0 \\
             B - A &= 1
         \end{align*}
-        By inspection, we have the solution $A = -1/2$ and $B = 1/2$. Subsituting this back into our original integrand yeilds \begin{align*}
+        By inspection, we have the solution $A = -1/2$ and $B = 1/2$. Substituting this back into our original integrand yields \begin{align*}
             \frac{1}{2} \left\{ \int_{}^{} \frac{\mathop{\mathrm{d}y} }{y - 1} - \int_{}^{} \frac{\mathop{\mathrm{d}y} }{y + 1}   \right\}  &= \ln \left| x \right| + \kappa_1 \\
             \iff \frac{1}{2} \left\{ \ln \left| y - 1 \right| - \ln \left| y + 1 \right| \right \} + \kappa_2 &= \ln \left| x \right| + \kappa_1 \\
             \iff \ln \left| \frac{y - 1}{y + 1} \right| &= 2 \ln \left| x \right| + \kappa \\
@@ -752,6 +750,16 @@
                 \Re(z) = \cos 5\theta = \cos \theta (\cos^4 \theta - 10 \cos^2 \theta \sin^2 \theta + 5 \sin^4 \theta)
             .\] 
             \item See paper 
+        \end{enumerate}
+        \item \textbf{VE1} \begin{enumerate}
+            \item The vectors $\vec{A}, \vec{B}, \vec{C}$ lie on the line on the line $\vec{r} = \vec{a} + \lambda \vec{b}$ if and only if $\overrightarrow{AB}$ is parallel to $\overrightarrow{BC}$, that is to say $\overrightarrow{BC} = \lambda \overrightarrow{AB}$, where $\lambda \in \mathbb{R}$. Note that \[
+                \overrightarrow{AB} = \vec{B} - \vec{A} = \left\langle 1, 1, -1 \right\rangle 
+            .\] and \[
+                \overrightarrow{BC} = \vec{C} - \vec{B} = -2\left\langle 1,1, -1 \right\rangle = -2 \overrightarrow{AB}
+            .\] 
+            Hence $\overrightarrow{AB}$ and $\overrightarrow{BC}$ are parallel. Thus the equation of the line they all lie on must have the directional vector $\vec{b} = \left\langle 1,1,-1 \right\rangle$. So the equation of our line is \[
+                \vec{r} = \left\langle 1, 0, 1 \right\rangle + \lambda \left\langle 1,1,-1 \right\rangle
+            .\] 
         \end{enumerate}
         \item \textbf{M1} \begin{enumerate}
             \item \begin{align*}
@@ -845,7 +853,7 @@
             \det A = \begin{vmatrix} 1 & -1 \\ 1 & 1 \end{vmatrix} = 1 \times 1 + 1 \times 1 = 2
         .\]  Then \[
             \det A = 2 = \lambda^2
-        .\] Hence $\lambda =  \sqrt{2}$ (We ignore the negative solution as it's not relavant to this question). So \[
+        .\] Hence $\lambda =  \sqrt{2}$ (We ignore the negative solution as it's not relevant to this question). So \[
             A = \sqrt{2} \begin{pmatrix} \frac{1}{\sqrt{2}} & - \frac{1}{\sqrt{2}} \\  \frac{1}{\sqrt{2}} &  \frac{1}{\sqrt{2}} \end{pmatrix} \equiv  \sqrt{2} \begin{pmatrix} \cos \theta & \sin \theta \\ - \sin \theta & \cos \theta \end{pmatrix}
         .\] Equating elements of the matrices produces the following system of equations \begin{align*}
             \cos \theta &=  \frac{1}{\sqrt{2}} \\
@@ -938,7 +946,7 @@
                 \lim_{L \to \infty} \frac{L^{k + 1}}{e^L} = \lim_{L \to \infty} \frac{(k+1)L^k}{e^L} = \cdots = \lim_{L \to \infty} \frac{(k+1)!}{e^L} \to 0 
             .\] Hence \[
                 \Pi(k+1) = (k+1) \Pi(k)
-            .\] Applying our inductive hypothesis yeilds \[
+            .\] Applying our inductive hypothesis yields \[
                 \Pi(k + 1) = (k+1) k! = (k+1)!
             .\] So the statement holds for $n = k + 1$. So by the principle of mathematical induction, the statement holds for all $n \in \mathbb{N}$.
         \end{proof} 
